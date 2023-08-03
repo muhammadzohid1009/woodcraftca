@@ -1,0 +1,330 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif
+}
+.black{
+    height: 30px;
+    margin: 0 0;
+    background: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+
+}
+.black p{
+    color: white;
+    
+}
+.black span{
+    color: rgb(255, 0, 0);
+}
+.nav{
+    padding: 10px;
+    margin: 0 15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    width: 300px;
+}
+.nav__icon{
+    display: flex;
+    gap: 10px;
+}
+.fa-solid{
+    font-size: 18px;
+}
+.fa-regular{
+    font-size: 18px;
+}
+.navbar{
+    width: 70%;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 15%;
+}
+.nav__collection{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    font-size: 16px;
+    font-weight: 600;
+    padding-top: 10px;
+}
+.red{
+    width: 200px;
+    height: 30px;
+    background: rgba(255, 0, 0, 0.736);
+    color: white;
+    padding: 5px 5px;
+}
+.banner{
+    width: 70%;
+    height: 650px;
+    background: url(./stul.webp)no-repeat center/cover;
+    margin: auto;
+}
+.h1{
+    color: rgba(255, 0, 0, 0.833);
+    font-size: 43px;
+    font-weight: 100;
+    padding: 100px 300px 0 ;
+
+}
+.fa-bars{
+    display: none;
+}
+.four{
+    width: 70%;
+    height: 350px;
+    display: flex;
+    margin: auto;
+}
+.box{
+    width: 25%;
+    height: 400px;
+
+}
+.box img{
+    width: 75%;
+    height: 70;
+    display: flex;
+    margin: auto;
+}
+.box p{
+    text-align: center;
+}
+.box p:hover{
+    color:rgba(255, 0, 0, 0.833) ;
+}
+.button{
+    width: 170px;
+    height: 35px;
+    background: rgba(255, 0, 0, 0.711);
+    color: white;
+    border: none;
+    display: block;
+    margin: auto;
+    border-radius: 3px;
+}
+.room{
+    width: 70%;
+    height: 450px;
+    display: flex;
+    margin: auto;
+    gap: 20px;
+    margin-top: 20px;
+}
+.box2 img{
+    width: 99%;
+    height:75% ;
+}
+.box2 h2{
+    font-weight: 100;
+    padding-top: 20px;
+    color: rgb(70, 70, 70);
+}
+.woodcraft{
+    width: 70%;
+    height: 470px;
+    margin: auto;
+    background: url(./Woodcraft-DesignServices_Banner1.jpg)no-repeat center/cover;
+}
+.wood{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    margin: auto;
+    margin-top: 100px;
+    background: url(./Woodcraft-DesignServices_Icon.png)no-repeat center/cover;
+}
+.woodcraft h1{
+    text-align: center;
+    color: white;
+    font-size: 50px;
+    font-weight: 100;
+    padding: 20px;
+}
+.btn{
+    width: 65%;
+    height: 65px;
+    font-size: 25px;
+    color: white;
+    background: none;
+    border: 1.5px solid white;
+    display: block;
+    margin: auto;
+}
+.book{
+    width: 400px;
+    height: 40px;
+    color:white ;
+    background: rgba(255, 0, 0, 0.515);
+    border: none;
+    border-radius: 3px;
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+    font-size: 400;
+}
+.two{
+    width: 70%;
+    height:500px;
+    margin: auto;
+    margin-top: 50px;
+    display: flex;
+    gap: 50px;
+}
+.first{
+    width: 48%;
+    height: 100%;
+    background: url(./Woodcraft-DesignServices_History\ \(1\).jpg)no-repeat center/cover;
+}
+.second{
+    width: 48%;
+    height: 100%;
+    background: url(./Woodcraft-DesignServices_Testimonials.jpg)no-repeat center/cover;
+}
+.first h1{
+    font-size: 40px;
+    width: 200px;
+    color: white;
+    text-align: center;
+    font-weight: 100;
+}
+.second h1{
+    font-size: 40px;
+    width: 450px;
+    color: white;
+    text-align: center;
+    font-weight: 100;
+}
+.first .text{
+    width: 200px;
+    margin: auto;
+    margin-top: 100px;
+}
+.second .text{
+    width: 450px;   
+    margin:auto;
+    margin-top: 100px;
+   
+}
+.picture{
+    width: 150px;
+    height: 150px;
+    background: url(./Woodcraft-DesignServices_Sinve1974.png)no-repeat center/cover;
+    margin: auto;
+    margin-top: 10px;
+}
+.picture2{
+    width: 150px;
+    height: 150px;
+    background: url(./Woodcraft-DesignServices_SpeechBubble.png)no-repeat center/cover;
+    margin: auto;
+}
+.first button{
+    width: 50%;
+    height: 33px;
+    background: #222;
+    color: white    ;
+    border: none;
+    font-size: 14px;
+    font-weight: 550;
+    margin-top: 20px;
+    display: block;
+    margin: auto;
+}
+.second button{
+    width: 50%;
+    height: 33px;
+    background: #222;
+    color: white    ;
+    border: none;
+    font-size: 14px;
+    font-weight: 550;
+    margin-top: 20px;
+    display: block;
+    margin: auto;
+}
+.long{
+    width: 100%;
+    height: 670px;
+    background: #222;
+    display: flex;
+    margin-top: 70px;
+    color: white;
+}
+.little{
+    width: 70%;
+    height: 80%;
+    margin: auto;
+    line-height: 1.5;
+    display: flex;
+    gap:30px ;
+}
+.little1{
+    width: 32%;
+    height: 100%;
+}
+.footer{
+    width: 70%;
+    height: 550px;
+    margin: auto;
+    margin-top: 70px;
+}
+.woodcraff__logo{
+    width: 300px;
+    height: 60px;
+}
+.foot{
+    width: 100%;
+    height:70% ;
+    display: flex;
+}
+.one{
+    width: 25%;
+}
+.foot__collection{
+    list-style:none ;
+    line-height: 2;
+}
+.foot__item{
+    color: rgb(73, 73, 73);
+}
+.foot__item:hover{
+    color: red;
+}
+.foot__item h2{
+    font-weight: 100;
+    color: black;
+}
+.div{
+    width: 150px;
+    height: 50px;
+    display: flex;
+    gap: 30px;
+}
+.icon{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #333;
+    color: white;
+    font-size: 25px;
+    margin-top: 50px;
+}
+.all{
+    padding-top: 50px;
+    padding-left: 1010px;
+}
